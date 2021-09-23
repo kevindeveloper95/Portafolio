@@ -1,0 +1,65 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Gluten:wght@200&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@200&family=Jost:ital@1&display=swap');
+
+body{
+   font-family: 'Jost', sans-serif;
+   
+}
+
+p{
+   font-size: 25px;
+}
+
+
+
+.en{
+    color: #49bf9d
+    
+}
+
+.es{
+    color: white;
+}
+
+.check{
+   position: relative;
+   width: 50px;
+   margin-bottom: 19px;
+
+}
+
+.check:before{
+content: '';
+position: absolute;
+width: 50px;
+height: 25px;
+background-color: white;
+border-radius: 25px;
+
+}
+
+.check:after{
+content: '';
+position: absolute;
+width: 25px;
+height: 25px;
+background-color: black;
+border-radius: 25px;
+transition: 0.25s;
+border: 2px solid white;
+box-sizing: border-box;
+
+}
+
+.check:checked:after{
+   left: 25px;
+   border: 2px solid #49bf9d;
+
+}
+
+.check:checked:before{
+   background-color: #49bf9d;
+
+
+
+}
