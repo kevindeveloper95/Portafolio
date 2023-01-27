@@ -184,14 +184,14 @@
 										</div>
 									</a>
 								</article>
-								<article class="style4">
+								<article class="style10">
 									<span class="image">
-										<img src="./images/bootstrap.jpg" alt="" />
+										<img src="./images/angular.png" alt="" />
 									</span>
-									<a href="#listen">
-										<h2 class='title-tecnology'>BOOTSTRAP</h2>
+									<a href="#tecnology">
+										<h2 class='title-tecnology'>ANGULAR</h2>
 										<div class="content">
-											<p>60%</p>
+											<p>70%</p>
 										</div>
 									</a>
 								</article>
@@ -287,17 +287,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="style10">
-									<span class="image">
-										<img src="./images/angular.png" alt="" />
-									</span>
-									<a href="#tecnology">
-										<h2 class='title-tecnology'>ANGULAR</h2>
-										<div class="content">
-											<p>30%</p>
-										</div>
-									</a>
-								</article>
+								
 								<article class="style11">
 									<span class="image">
 										<img src="./images/jquery.png" alt="" />
