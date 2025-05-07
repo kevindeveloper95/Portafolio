@@ -5,9 +5,9 @@ check.addEventListener('click',idioma);
 function idioma(){
     let id = check.checked
     if (id == true) {
-        location.href = 'english.php'
+        location.href = 'english.html'
         
     }else{
-        location.href = 'index.php'
+        location.href = 'index.html'
     }
 }

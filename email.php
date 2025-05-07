@@ -1,4 +1,4 @@
-<?php
+<?php 
 
 
 /* if(isset($_POST['enviar'])){
@@ -18,7 +18,7 @@
 } */
 
 
-$destinatario = 'kevindeveloper95@hotmail.com';
+/* $destinatario = 'kevindeveloper95@hotmail.com';
 
 $name = $_POST['name'];
 $email = $_POST['email'];
@@ -55,6 +55,6 @@ function aplicar(){
 
   </script>";
   
-  
+   */
 
 
