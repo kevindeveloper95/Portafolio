@@ -146,29 +146,29 @@
 
 			.tiles article.style1 > .image:before {
 				/* background-color: #f2849e; */
-				background-color: #E86024; 
+				background-color: rgb(17, 17, 17); 
 			}
 
 			.tiles article.style2 > .image:before {
 				/* background-color: #7ecaf6; */
-				background-color: #2862E9; 
+				background-color: #FF9900; 
 			}
 
 			.tiles article.style3 > .image:before {
 				/* background-color: rgb(241, 241, 74); */
-				background-color: #EFD81D; 
+				background-color: #D33833; 
 			}
 
 			.tiles article.style4 > .image:before {
-				background-color: #8752D4;
+				background-color: #6B7280;
 			}
 
 			.tiles article.style5 > .image:before {
-				background-color: #79D8F7;
+				background-color: #8B5CF6;
 			}
 
 			.tiles article.style6 > .image:before {
-				background-color: #86BE00;
+				background-color: #0062FF;
 			}
 
 			.tiles article.style7 > .image:before {
@@ -184,7 +184,7 @@
 			}
 
 			.tiles article.style10 > .image:before {
-				background-color: orange;
+				background-color: #6B7280;
 			}
 
 			.tiles article.style11 > .image:before {
@@ -218,6 +218,7 @@
 
 		* + .tiles {
 			margin-top: 2em;
+			justify-content: center;
 		}
 
 		body.is-preload .tiles article {
