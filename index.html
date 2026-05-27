@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Portafolio</title>
+		<title>Portfolio</title>
 		<link rel="shortcut icon" href="./images/briefcase-solid.svg">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -21,19 +21,13 @@
 			<header id="header">
 				<div class="inner">
 					<a href="#" class="image avatar"><img src="images/kevin.jpg" alt="" /></a>
-					<div>
-					<span class="es">Español</span>
-					<input type="checkbox"  class="check">
-					<span class="en">Inglés</span>
-					</div>
-					<h1>Hola! Soy Kevin Meneses Parga</h1>
-					<h1><strong>DESARROLLADOR BACKEND (NODE.JS | MICROSERVICIOS) | DEVOPS (AWS & KUBERNETES) | EXPERIENCIA FULLSTACK</strong></h1>
+				
+					<h1>Hi! I'm Kevin Meneses Parga</h1>
+					<h1><strong>CLOUD ENGINEER | DEVOPS FOCUS | AWS | KUBERNETES | TERRAFORM | OBSERVABILITY | BACKEND ENGINEERING BACKGROUND</strong></h1>
 					<ul  id="button-change">
-						<li><a  href="#portafolio" class="button portfolio"><i class="fas fa-arrow-circle-right"></i> Ver Portafolio</a></li>
+						<li><a  href="#portafolio" class="button portfolio"><i class="fas fa-arrow-circle-right"></i> See portfolio</a></li>
 					</ul>
-					<ul  id="button-change-init">
-						<li><a  href="images/Kevin_Meneses_Backend_Dev.pdf" download class="button portfolio"><i class="fas fa-download"></i> Descargar CV</a></li>
-					</ul>
+					
 				</div>
 			</header>
 
@@ -45,9 +39,9 @@
 				<!-- One -->
 					<section id="one">
 						<header class="major">
-							<h2 id="portafolio"><i class="fas fa-user-tie"></i> Sobre mi</h2>
+							<h2 id="portafolio"><i class="fas fa-user-tie"></i> About me</h2>
 						</header>
-						<p>Desarrollador backend especializado en Node.js y microservicios, con habilidades DevOps (AWS/Kubernetes/CI/CD) y experiencia full stack (React). Apasionado por crear sistemas escalables, optimizar infraestructura y resolver problemas complejos. Autodidacta, orientado a resultados y bilingüe (inglés/español).</p>
+						<p>Cloud Engineer with a DevOps focus, specializing in cloud-native and distributed systems. I design and run AWS platforms with Kubernetes and Terraform, backed by a software engineering background in Node.js and TypeScript.<br><br>Experienced with production deployments, plus observability and monitoring using Elastic Stack, Prometheus, and Grafana. Native Spanish speaker with professional technical English.</p>
 					</section>
 
 					<!-- <section id="one">
@@ -64,17 +58,126 @@
 
 				<!-- Two -->
 					<section id="two">
-						<h2 id="portafolio"><i class="fas fa-briefcase"></i> Portafolio(Proyectos destacados)</h2>
+						<h2 id="portafolio"><i class="fas fa-briefcase"></i> Portfolio (Featured Projects)</h2>
 						<div class="row">
 							<article class="col-12 col-12-xsmall work-item featured-project">
-								<a href="https://www.youtube.com/watch?v=35x9RuKxQTQ" target=_BLANC class="image fit thumb"><img src="./images/jobapp.png" alt="Freelance marketplace cover" /></a>
+								<div class="architecture-evolution">
+									<div class="architecture-evolution__header">
+										<span class="architecture-evolution__series-badge"><i class="fas fa-layer-group"></i> Freelance Marketplace · Architecture & delivery</span>
+									</div>
+
+									<div class="architecture-evolution__timeline">
+										<div class="architecture-evolution__step">
+											<div class="architecture-evolution__rail">
+												<span class="architecture-evolution__version">INF</span>
+											</div>
+											<div class="architecture-evolution__body">
+												<div class="architecture-evolution__meta">
+													<strong>Infrastructure architecture</strong>
+													<span>VPC · Amazon EKS · Multi-AZ · Route 53 · ALB Ingress · NAT · RDS · ElastiCache · ACM · IAM</span>
+												</div>
+												<a href="./images/4-Arquitectura-despliegue.png" target=_BLANC class="image fit thumb image-diagram"><img src="./images/4-Arquitectura-despliegue.png" alt="Infrastructure architecture on AWS" /></a>
+											</div>
+										</div>
+
+										<div class="architecture-evolution__connector" aria-hidden="true">
+											<div class="architecture-evolution__rail"><i class="fas fa-arrow-down"></i></div>
+											<div class="architecture-evolution__body"><span>Domain</span></div>
+										</div>
+
+										<div class="architecture-evolution__step">
+											<div class="architecture-evolution__rail">
+												<span class="architecture-evolution__version">MSV</span>
+											</div>
+											<div class="architecture-evolution__body">
+												<div class="architecture-evolution__meta">
+													<strong>Microservices domain</strong>
+													<span>Auth · Users · Gigs · Chat · Orders · Reviews · Notifications — bounded contexts per service</span>
+												</div>
+												<a href="./images/1-Microservicios.png" target=_BLANC class="image fit thumb image-diagram"><img src="./images/1-Microservicios.png" alt="Marketplace microservices by domain" /></a>
+											</div>
+										</div>
+
+										<div class="architecture-evolution__connector" aria-hidden="true">
+											<div class="architecture-evolution__rail"><i class="fas fa-arrow-down"></i></div>
+											<div class="architecture-evolution__body"><span>Messaging</span></div>
+										</div>
+
+										<div class="architecture-evolution__step">
+											<div class="architecture-evolution__rail">
+												<span class="architecture-evolution__version">MSG</span>
+											</div>
+											<div class="architecture-evolution__body">
+												<div class="architecture-evolution__meta">
+													<strong>Inter-service communication</strong>
+													<span>Event-driven flows · RabbitMQ · producer/consumer between microservices</span>
+												</div>
+												<a href="./images/3-Comunicacion-microservicios.png" target=_BLANC class="image fit thumb image-diagram"><img src="./images/3-Comunicacion-microservicios.png" alt="Microservices event communication" /></a>
+											</div>
+										</div>
+
+										<div class="architecture-evolution__connector" aria-hidden="true">
+											<div class="architecture-evolution__rail"><i class="fas fa-arrow-down"></i></div>
+											<div class="architecture-evolution__body"><span>Development</span></div>
+										</div>
+
+										<div class="architecture-evolution__step">
+											<div class="architecture-evolution__rail">
+												<span class="architecture-evolution__version">DEV</span>
+											</div>
+											<div class="architecture-evolution__body">
+												<div class="architecture-evolution__meta">
+													<strong>Development architecture</strong>
+													<span>API Gateway · Node.js microservices · HTTP/HTTPS · Socket.IO · MySQL · MongoDB · Redis · RabbitMQ · Elasticsearch/Kibana</span>
+												</div>
+												<a href="./images/2-Arquitectura-completa.png" target=_BLANC class="image fit thumb image-diagram"><img src="./images/2-Arquitectura-completa.png" alt="Development architecture — microservices platform" /></a>
+											</div>
+										</div>
+
+										<div class="architecture-evolution__connector" aria-hidden="true">
+											<div class="architecture-evolution__rail"><i class="fas fa-arrow-down"></i></div>
+											<div class="architecture-evolution__body"><span>CI/CD</span></div>
+										</div>
+
+										<div class="architecture-evolution__step">
+											<div class="architecture-evolution__rail">
+												<span class="architecture-evolution__version">CD</span>
+											</div>
+											<div class="architecture-evolution__body">
+												<div class="architecture-evolution__meta">
+													<strong>CI/CD pipeline</strong>
+													<span>GitHub → Jenkins → Docker build → Kubernetes deploy</span>
+												</div>
+												<a href="./images/Diagrama-CI-CD.png" target=_BLANC class="image fit thumb image-diagram"><img src="./images/Diagrama-CI-CD.png" alt="CI/CD pipeline diagram" /></a>
+											</div>
+										</div>
+
+										<div class="architecture-evolution__connector" aria-hidden="true">
+											<div class="architecture-evolution__rail"><i class="fas fa-arrow-down"></i></div>
+											<div class="architecture-evolution__body"><span>Application</span></div>
+										</div>
+
+										<div class="architecture-evolution__step">
+											<div class="architecture-evolution__rail">
+												<span class="architecture-evolution__version">APP</span>
+											</div>
+											<div class="architecture-evolution__body">
+												<div class="architecture-evolution__meta">
+													<strong>Finished application</strong>
+													<span>React · Tailwind CSS · TypeScript · real-time marketplace UX</span>
+												</div>
+												<a href="./images/jobapp.png" target=_BLANC class="image fit thumb image-diagram"><img src="./images/jobapp.png" alt="Freelance marketplace application" /></a>
+											</div>
+										</div>
+									</div>
+								</div>
 								<div class="featured-card">
-									<h3 id='portafolio'>Plataforma Freelance Marketplace</h3>
+									<h3 id='portafolio'>Freelance Marketplace Platform</h3>
 									<ul class="project-highlights">
-										<li><strong>Microservicios y dominios:</strong> Servicios en Node.js, Express y TypeScript que abarcan autenticación, gigs, chat, órdenes, reseñas, notificaciones y pagos bajo una estrategia database-per-service y flujos event-driven.</li>
-										<li><strong>Automatización en la nube:</strong> Workloads contenedizados con Docker, orquestados en Kubernetes (Minikube y AWS EKS) y promovidos entre entornos mediante pipelines CI/CD en Jenkins.</li>
-										<li><strong>Datos, mensajería y observabilidad:</strong> RabbitMQ, Redis, PostgreSQL, MySQL y MongoDB, complementados con Elasticsearch/Kibana, Prometheus y Grafana para trazabilidad, métricas y alertamiento.</li>
-										<li><strong>Entrega frontend:</strong> Cliente en React, Tailwind CSS y TypeScript consumiendo las APIs de microservicios para garantizar una UX responsiva.</li>
+										<li><strong>Marketplace-oriented microservices architecture:</strong> Independent services in Node.js, Express and TypeScript for authentication, users, gigs, chat, orders, reviews and notifications, following the database-per-service pattern and event-driven communication.</li>
+										<li><strong>Automation and cloud deployment:</strong> Containerized workloads with Docker and orchestrated with Kubernetes (Minikube and AWS EKS), promoted between environments through CI/CD pipelines in Jenkins.</li>
+										<li><strong>Data, messaging and observability:</strong> Integration of RabbitMQ, Redis, PostgreSQL, MySQL and MongoDB, with centralized observability using Elasticsearch/Kibana, Prometheus and Grafana for logging, metrics and traceability.</li>
+										<li><strong>Frontend delivery:</strong> Web client developed in React, Tailwind CSS and TypeScript, consuming microservices APIs for a responsive and real-time user experience.</li>
 									</ul>
 								</div>
 								<div class="button-proyect featured-actions">
@@ -82,10 +185,10 @@
 										<li><a href="https://www.youtube.com/watch?v=35x9RuKxQTQ" target=_BLANC class="button portfolio"><i class="fas fa-arrow-circle-right"></i> Intro Demo</a></li>
 									</ul>
 									<ul id="button-change">
-										<li><a href="https://www.youtube.com/watch?v=cARBE8o0SJc" target=_BLANC class="button portfolio"><i class="fas fa-video"></i> Demo Completo</a></li>
+										<li><a href="https://www.youtube.com/watch?v=cARBE8o0SJc" target=_BLANC class="button portfolio"><i class="fas fa-video"></i> Full Demo</a></li>
 									</ul>
 									<ul id="button-change">
-										<li><a href="https://github.com/kevindeveloper95/jobapp-full" target=_BLANC class="button portfolio"><i class="icon brands fa-github"></i> Ver Código</a></li>
+										<li><a href="https://github.com/kevindeveloper95/jobapp-full" target=_BLANC class="button portfolio"><i class="icon brands fa-github"></i> View Code</a></li>
 									</ul>
 							
 								</div>
@@ -96,7 +199,7 @@
 											<img src="./images/arquitectura.png" alt="" />
 										</span>
 										<a href="https://github.com/kevindeveloper95/jobapp-full/tree/master/diagrams">
-											<h2 class='title-tecnology'>Arquitectura y Diagramas</h2>
+											<h2 class='title-tecnology'>Architecture and Diagrams</h2>
 											<div class="content">
 												<!-- <p>90%</p> -->
 											</div>
@@ -118,7 +221,7 @@
 											<img src="./images/automatizacion.jpg" alt="" />
 										</span>
 										<a href="https://github.com/kevindeveloper95/jobapp-full/blob/master/services/gateway-service/Jenkinsfile">
-											<h2 class='title-tecnology'>Automatizacion</h2>
+											<h2 class='title-tecnology'>Automation</h2>
 											<div class="content">
 												<!-- <p>70%</p> -->
 											</div>
@@ -129,7 +232,7 @@
 											<img src="./images/monitoreo.png" alt="" />
 										</span>
 										<a href="https://github.com/kevindeveloper95/jobapp-full/tree/master/jobber-k8s/AWS/monitor">
-											<h2 class='title-tecnology'>Monitoreo</h2>
+											<h2 class='title-tecnology'>Monitoring</h2>
 											<div class="content">
 												<!-- <p>70%</p> -->
 											</div>
@@ -141,7 +244,7 @@
 											<img src="./images/aprendizaje.jpg" alt="" />
 										</span>
 										<a href="https://github.com/kevindeveloper95/jobapp-full/blob/master/LEARNINGS.md">
-											<h2 class='title-tecnology'>Aprendizaje</h2>
+											<h2 class='title-tecnology'>Technical Challenges</h2>
 											<div class="content">
 												<!-- <p>70%</p> -->
 											</div>
@@ -152,7 +255,7 @@
 											<img src="./images/implementacion.png" alt="" />
 										</span>
 										<a href="https://github.com/kevindeveloper95/jobapp-full/blob/master/README.md">
-											<h2 class='title-tecnology'>Implementacion</h2>
+											<h2 class='title-tecnology'>Setup & Configuration</h2>
 											<div class="content">
 												<!-- <p>70%</p> -->
 											</div>
@@ -161,16 +264,119 @@
 								</section>
 							
 							</article>
+
+							<article class="col-12 col-12-xsmall work-item featured-project">
+								<div class="architecture-evolution">
+									<div class="architecture-evolution__header">
+										<span class="architecture-evolution__series-badge"><i class="fas fa-layer-group"></i> Same project · Architecture evolution</span>
+									</div>
+
+									<div class="architecture-evolution__timeline">
+										<div class="architecture-evolution__step">
+											<div class="architecture-evolution__rail">
+												<span class="architecture-evolution__version">v1</span>
+											</div>
+											<div class="architecture-evolution__body">
+												<div class="architecture-evolution__meta">
+													<strong>Three-tier architecture on EC2</strong>
+													<span>VPC · ALB · ASG · EC2 · RDS MySQL Multi-AZ · NAT Gateway · Secrets Manager · IAM</span>
+												</div>
+												<a href="./images/Arquitectura-SSA.png" target=_BLANC class="image fit thumb image-diagram"><img src="./images/Arquitectura-SSA.png" alt="Three-tier architecture v1" /></a>
+												<div class="architecture-evolution__actions">
+													<a href="./images/Arquitectura-SSA.png" target=_BLANC class="architecture-evolution__btn"><i class="fas fa-video"></i><span>View diagram</span></a>
+													<a href="https://github.com/kevindeveloper95/Three-tier-architecture" target=_BLANC class="architecture-evolution__btn architecture-evolution__btn--code"><i class="icon brands fa-github"></i><span>View code</span></a>
+												</div>
+											</div>
+										</div>
+
+										<div class="architecture-evolution__connector" aria-hidden="true">
+											<div class="architecture-evolution__rail"><i class="fas fa-arrow-down"></i></div>
+											<div class="architecture-evolution__body"><span>Containerization</span></div>
+										</div>
+
+										<div class="architecture-evolution__step">
+											<div class="architecture-evolution__rail">
+												<span class="architecture-evolution__version">v2</span>
+											</div>
+											<div class="architecture-evolution__body">
+												<div class="architecture-evolution__meta">
+													<strong>Containerized architecture on ECS Fargate</strong>
+													<span>VPC · ALB · ECS Fargate · ECR · RDS MySQL Multi-AZ · NAT Gateway · Secrets Manager</span>
+												</div>
+												<a href="./images/Arquitectura-microservicios-SSA.png" target=_BLANC class="image fit thumb image-diagram"><img src="./images/Arquitectura-microservicios-SSA.png" alt="ECS Fargate architecture v2" /></a>
+												<div class="architecture-evolution__actions">
+													<a href="./images/Arquitectura-microservicios-SSA.png" target=_BLANC class="architecture-evolution__btn"><i class="fas fa-video"></i><span>View diagram</span></a>
+													<a href="https://github.com/kevindeveloper95/Containerized-architecture" target=_BLANC class="architecture-evolution__btn architecture-evolution__btn--code"><i class="icon brands fa-github"></i><span>View code</span></a>
+												</div>
+											</div>
+										</div>
+
+										<div class="architecture-evolution__connector" aria-hidden="true">
+											<div class="architecture-evolution__rail"><i class="fas fa-arrow-down"></i></div>
+											<div class="architecture-evolution__body"><span>Serverless</span></div>
+										</div>
+
+										<div class="architecture-evolution__step">
+											<div class="architecture-evolution__rail">
+												<span class="architecture-evolution__version">v3</span>
+											</div>
+											<div class="architecture-evolution__body">
+												<div class="architecture-evolution__meta">
+													<strong>Serverless architecture on AWS</strong>
+													<span>CloudFront · S3 · API Gateway · Lambda · DynamoDB · IAM</span>
+												</div>
+												<a href="./images/serverless.png" target=_BLANC class="image fit thumb image-diagram"><img src="./images/serverless.png" alt="Serverless architecture v3" /></a>
+												<div class="architecture-evolution__actions">
+													<a href="./images/serverless.png" target=_BLANC class="architecture-evolution__btn"><i class="fas fa-video"></i><span>View diagram</span></a>
+													<a href="https://github.com/kevindeveloper95/serverless-architecture" target=_BLANC class="architecture-evolution__btn architecture-evolution__btn--code"><i class="icon brands fa-github"></i><span>View code</span></a>
+												</div>
+											</div>
+										</div>
+
+										<div class="architecture-evolution__connector architecture-evolution__connector--final" aria-hidden="true">
+											<div class="architecture-evolution__rail"><i class="fas fa-arrow-down"></i></div>
+											<div class="architecture-evolution__body"><span>Cloud governance</span></div>
+										</div>
+
+										<div class="architecture-evolution__step architecture-evolution__step--governance">
+											<div class="architecture-evolution__rail">
+												<span class="architecture-evolution__version architecture-evolution__version--governance">Gov</span>
+											</div>
+											<div class="architecture-evolution__body">
+												<div class="architecture-evolution__meta">
+													<strong>Cloud governance with AWS Organizations</strong>
+													<span>AWS Organizations · SCPs · Management account · Development OU · Production OU · IAM role · Cross-account access</span>
+												</div>
+												<a href="./images/Diagrama Governance.png" target=_BLANC class="image fit thumb image-diagram"><img src="./images/Diagrama Governance.png" alt="Cloud governance" /></a>
+												<div class="architecture-evolution__actions">
+													<a href="./images/Diagrama Governance.png" target=_BLANC class="architecture-evolution__btn"><i class="fas fa-video"></i><span>View diagram</span></a>
+													<a href="https://github.com/kevindeveloper95/governance-architecture" target=_BLANC class="architecture-evolution__btn architecture-evolution__btn--code"><i class="icon brands fa-github"></i><span>View code</span></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="featured-card">
+									<h3 id='portafolio'>Ritual Roast · Architecture evolution on AWS</h3>
+									<p class="project-context">Application with a <strong>Next.js</strong> frontend and a <strong>Flask</strong> backend. All AWS infrastructure is provisioned and automated with <strong>Terraform</strong>, so each version can be deployed, evolved and reproduced in a controlled way.</p>
+									<ul class="project-highlights">
+										<li><strong>v1 · Three-tier architecture on EC2:</strong> Baseline with a multi-AZ VPC, ALB, ASG, EC2, RDS MySQL Multi-AZ, NAT Gateway, Secrets Manager and IAM — separating DMZ, application and data tiers with dedicated security groups.</li>
+										<li><strong>v2 · Containers on ECS Fargate:</strong> Workloads containerized on ECS Fargate with images in ECR, ALB target groups and RDS Multi-AZ — removing direct server management and packaging Next.js and Flask as independent services with consistent deployments.</li>
+										<li><strong>v3 · Serverless architecture:</strong> CloudFront and S3 for the static frontend, API Gateway as the entry point, Lambda functions for business logic and DynamoDB as the data store — minimizing infrastructure operations and scaling purely on demand.</li>
+										<li><strong>Governance · Multi-account governance:</strong> AWS Organizations with management, development and production accounts, SCPs and cross-account IAM roles — enforcing centralized controls, security and compliance as the architecture grows.</li>
+									</ul>
+								</div>
+							</article>
 							
 							<article class="col-12 col-12-xsmall work-item featured-project">
 								<a href="https://techshot.kevmendeveloper.com/" target=_BLANC class="image fit thumb"><img src="./images/techshot.png" alt="TechShot online store cover" /></a>
 								<div class="featured-card">
-									<h3 id='portafolio'>Tienda en línea TechShot</h3>
+									<h3 id='portafolio'>TechShot Online Store</h3>
 									<ul class="project-highlights">
-										<li><strong>Stack MERN profesional:</strong> Frontend en React con hooks, React Router, Redux Toolkit y React-Bootstrap; backend en Node.js/Express con Mongoose, seeders y scripts CLI para modelar el dominio.</li>
-										<li><strong>Catálogo y UX de compra:</strong> Paginación, búsqueda, carrusel de destacados, reseñas y calificaciones autenticadas, carrito con cantidades dinámicas y checkout multietapa.</li>
-										<li><strong>Seguridad y pagos:</strong> Autenticación JWT con cookies HTTP-only, bcrypt, middlewares personalizados, manejo estructurado de errores e integración con PayPal REST SDK.</li>
-										<li><strong>Gestión operativa:</strong> Consola administrativa para CRUD de productos, administración de usuarios, detalle de órdenes con marcado de entregas, configuración por variables de entorno y despliegue productivo.</li>
+										<li><strong>Professional MERN stack:</strong> Frontend in React with hooks, React Router, Redux Toolkit and React-Bootstrap; backend in Node.js/Express with Mongoose, seeders and CLI scripts to model the domain.</li>
+										<li><strong>Catalog and shopping UX:</strong> Pagination, search, featured carousel, authenticated reviews and ratings, cart with dynamic quantities and multi-stage checkout.</li>
+										<li><strong>Security and payments:</strong> JWT authentication with HTTP-only cookies, bcrypt, custom middlewares, structured error handling and PayPal REST SDK integration.</li>
+										<li><strong>Operational management:</strong> Admin console for product CRUD, user management, order details with delivery marking, environment variable configuration and production deployment.</li>
 									</ul>
 								</div>
 								<div class="button-proyect featured-actions">
@@ -180,22 +386,22 @@
 										<li><a href="https://youtu.be/pG5WHF3spns" target=_BLANC class="button portfolio"><i class="fas fa-video"></i> Intro Demo</a></li>
 									</ul>
 									<ul id="button-change">
-										<li><a href="https://www.youtube.com/watch?v=iSXCu9OVTvM&list=PL9iujjeW-IYc75WJSXNZ4JQC2bv_34Fw4&index=4" target=_BLANC class="button portfolio"><i class="fas fa-video"></i> Demo Completo</a></li>
+										<li><a href="https://www.youtube.com/watch?v=iSXCu9OVTvM&list=PL9iujjeW-IYc75WJSXNZ4JQC2bv_34Fw4&index=4" target=_BLANC class="button portfolio"><i class="fas fa-video"></i> Full Demo</a></li>
 									</ul>
 									<ul id="button-change">
-										<li><a href="https://github.com/kevindeveloper95/Ecommerce" target=_BLANC class="button portfolio"><i class="icon brands fa-github"></i> Ver Código</a></li>
+										<li><a href="https://github.com/kevindeveloper95/Ecommerce" target=_BLANC class="button portfolio"><i class="icon brands fa-github"></i> View Code</a></li>
 									</ul>
 								</div>
 							</article>
 						    <article class="col-12 col-12-xsmall work-item featured-project">
 								<a href="https://socialapp.kevmendeveloper.com/" target=_BLANC class="image fit thumb"><img src="images/social.png" alt="Social media app cover" /></a>
 								<div class="featured-card">
-									<h3 id='portafolio'>Red social</h3>
+									<h3 id='portafolio'>Social Network</h3>
 									<ul class="project-highlights">
-										<li><strong>Realtime MERN:</strong> React con hooks y Context API, Express/Node y MongoDB orquestados con JWT para login/registro, invitaciones y presencia.</li>
-										<li><strong>Chat y señalización:</strong> Socket.IO como bus de eventos para mensajería instantánea, gestión de amigos y coordinación de salas de videollamada.</li>
-										<li><strong>WebRTC simplificado:</strong> Integración con simple-peer para crear rooms de llamadas grupales con negociación peer-to-peer automatizada.</li>
-										<li><strong>Experiencia colaborativa:</strong> UI responsiva con Material UI, estados sincronizados en tiempo real y despliegue productivo listo para mostrar.</li>
+										<li><strong>Realtime MERN:</strong> React with hooks and Context API, Express/Node and MongoDB orchestrated with JWT for login/registration, invitations and presence.</li>
+										<li><strong>Chat and signaling:</strong> Socket.IO as event bus for instant messaging, friend management and video call room coordination.</li>
+										<li><strong>Simplified WebRTC:</strong> Integration with simple-peer to create group call rooms with automated peer-to-peer negotiation.</li>
+										<li><strong>Collaborative experience:</strong> Responsive UI with Material UI, real-time synchronized states and production-ready deployment to showcase.</li>
 									</ul>
 								</div>
 								<div class="button-proyect featured-actions">
@@ -203,10 +409,10 @@
 										<li><a href="https://youtu.be/dLrBIa_-5EU" target=_BLANC class="button portfolio"><i class="fas fa-video"></i> Intro Demo</a></li>
 									</ul>
 									<ul id="button-change">
-										<li><a href="https://youtu.be/04pZwuPgRzw" target=_BLANC class="button portfolio"><i class="fas fa-video"></i> Demo Completo</a></li>
+										<li><a href="https://youtu.be/04pZwuPgRzw" target=_BLANC class="button portfolio"><i class="fas fa-video"></i> Full Demo</a></li>
 									</ul>
 									<ul id="button-change">
-										<li><a href="https://github.com/kevindeveloper95/SocialApp" target=_BLANC class="button portfolio"><i class="icon brands fa-github"></i> Ver Código</a></li>
+										<li><a href="https://github.com/kevindeveloper95/SocialApp" target=_BLANC class="button portfolio"><i class="icon brands fa-github"></i> View Code</a></li>
 									</ul>
 								</div>
 							</article>
@@ -344,10 +550,10 @@
 					<ul class="icons">
 						<li><a href="https://www.facebook.com/kevin.menesesparga/" class="icon brands fa-facebook"><span class="label">Facebook</span></a></li>
 						<li><a href="https://github.com/kevindeveloper95?tab=repositories" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="https://www.linkedin.com/in/kevin-meneses-frontend-web-developer/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://www.linkedin.com/in/kevin-meneses-web-developer/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
 					</ul>
 					<ul class="copyright">
-					<li>Ver más: <a href="https://www.linkedin.com/in/kevin-meneses-frontend-web-developer/">LinkedIn</a></li>
+					<li>See more: <a href="https://www.linkedin.com/in/kevin-meneses-web-developer/">LinkedIn</a></li>
 					</ul>
 				</div>
 			</footer>
